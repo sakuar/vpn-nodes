@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "timestamp": 1773905238,
-  "signature": "KpKJticUnLxItivftAQ6gQH19MSG5Gk+VCY2we2gFI1h9JdSTnp0KmCQ11EUqPx0oYiQ0jZB1qsuup0RdpEpCI+UIaUJorJXkCi+AQHNFMbVF2AwTtutv1Aq0E50ErYJwIXDJmRd4l9cI0uKBjATfqLVRdGvogRiHbQl95ewZAQrU/YV7DByXejgG3iHdQNEp8pnz4JouNwPDfETGYk7gb5OSh9M+MEdr1LLfLPBmy+J7bJ32tESkk0DqjlhGRdhRZ2MaWvY+C5G27efZ6/EY6+d0AOtfLdwxGXF4+3ob8+vhE3JOhsWeZMear5YT7Igh4ruJ/aZDnDLUqvKhhUfuA==",
+  "timestamp": 1773999395,
+  "signature": "QOR4lpNk/ziG38p0evnY2ZpZTQ0wZ/kw3jgtdS0i6drdaihdFrumXK5xfQQGY+x1vIi/euT8i3s8rA0WdALsTc1KAhAn4841/CSRA30Bj2/W3sksHfBucuP2osOC3speULTxO3HtxmCGur9s0p4dbKgQyePP2UysAn2tZliCO7SYLXm4882iKJA7mML7RABZS0rD0sd5LAxgb8LrfKNMuE1/N01GLvWNaIX4lCribfxF7Bdr4DVHeo4/y9KAAyAe1q1e6nx3jEHPwDOKVmIstPvdn9hu64pnLhDMcIfdXHRJjCoIk1vMRewtj5dmw77eG5LJlc/CNSNehNbTb2B5Ig==",
   "nodes": [
     {
       "id": "us_sj_01",
@@ -11,15 +11,16 @@
       "host": "107.173.154.110",
       "port": 10086,
       "protocol": "vmess",
-      "uuid": "0a88b35a-b36f-4a69-a740-8f873d4d6c06",
+      "uuid": "c7010b17-2330-4fa8-8d97-721c15fe28dc",
       "alterId": 0,
       "security": "auto",
       "network": "tcp",
       "tls": false,
       "isPremium": false,
       "cost": "$6/mo",
-      "monthlyQuotaGB": 2000,
-      "quotaResetDay": 1
+      "monthlyQuotaGB": 1800,
+      "quotaResetDay": 1,
+      "maxConnections": 20
     },
     {
       "id": "us_sj_01_vless",
@@ -40,8 +41,9 @@
       "tls": true,
       "isPremium": false,
       "cost": "$6/mo",
-      "monthlyQuotaGB": 2000,
-      "quotaResetDay": 1
+      "monthlyQuotaGB": 1800,
+      "quotaResetDay": 1,
+      "maxConnections": 20
     },
     {
       "id": "us_sj_02",
@@ -58,8 +60,9 @@
       "tls": false,
       "isPremium": false,
       "cost": "$6/mo",
-      "monthlyQuotaGB": 2000,
-      "quotaResetDay": 1
+      "monthlyQuotaGB": 1800,
+      "quotaResetDay": 1,
+      "maxConnections": 20
     },
     {
       "id": "us_ny_01",
@@ -76,8 +79,9 @@
       "tls": false,
       "isPremium": false,
       "cost": "$6/mo",
-      "monthlyQuotaGB": 2000,
-      "quotaResetDay": 1
+      "monthlyQuotaGB": 1800,
+      "quotaResetDay": 1,
+      "maxConnections": 20
     }
   ]
 }
